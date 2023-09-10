@@ -1,0 +1,1 @@
+# Write a function that finds the smallest largest number in an array.
