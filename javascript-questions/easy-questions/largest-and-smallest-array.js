@@ -17,4 +17,18 @@ function largestAndSmallest(numArray) {
 console.log(largestAndSmallest([0, 15, 6, -100, 10000, 6, 18]))
 console.log(largestAndSmallest([0, 0, 0, 0, 0, 0, 0]))
 console.log(largestAndSmallest([1]))
+console.log(largestAndSmallest([-15, -6, -100, -10000, -6, -18]))
+console.log('--------------------------------------------------')
+
+function filterLargestAndSmallest(numArray) {
+    let largest = Math.max(numArray);
+    let smallest = Math.min(numArray);
+    return `The smallest number is ${smallest}, and the largest number is ${largest}!`
+}
+
+console.log(largestAndSmallest([0, 15, 6, -100, 10000, 6, 18]))
+console.log(largestAndSmallest([0, 0, 0, 0, 0, 0, 0]))
+console.log(largestAndSmallest([1]))
+console.log(largestAndSmallest([-15, -6, -100, -10000, -6, -18]))
+
 
