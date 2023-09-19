@@ -18,3 +18,12 @@ function isPalindrome(word) {
 console.log(isPalindrome('abba'))
 console.log(isPalindrome('snake'))
 console.log(isPalindrome('parap'))
+
+
+function isPalindromeSplit(word) {
+    return word === word.split('').reverse().join('')
+}
+
+console.log(isPalindromeSplit('abba'))
+console.log(isPalindromeSplit('snake'))
+console.log(isPalindromeSplit('parap'))
